@@ -177,15 +177,18 @@ CircularStd @font-face kit
   font-weight: 400;
   font-style: italic;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   width: 100%;
   height: 100%;
   position: relative;
-  -webkit-font-smoothing: antialiased !important;
-  -moz-font-smoothing: antialiased !important;
-  -o-font-smoothing: antialiased !important;
-  -ms-font-smoothing: antialiased !important;
-  font-smoothing: antialiased !important;
+  -webkit-font-smooth: antialiased !important;
+  -moz-font-smooth: antialiased !important;
+  -o-font-smooth: antialiased !important;
+  -ms-font-smooth: antialiased !important;
+  font-smooth: antialiased !important;
   font-family: "CircularStd", sans-serif;
   font-size: 16px;
   color: #0b2238;
@@ -17423,7 +17426,7 @@ software_web
   transform: translateZ(0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smooth: grayscale;
   position: relative;
   -webkit-transition-property: color;
   transition-property: color;
